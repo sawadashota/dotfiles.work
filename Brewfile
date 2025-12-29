@@ -1,0 +1,93 @@
+brew "mas"
+brew "gnupg"
+brew "libmagic"
+brew "git"
+brew "gh"
+brew "tig"
+brew "git-delta" # rich diff
+brew "coreutils"
+brew "moreutils"
+brew "fish"
+brew "gping"
+brew "direnv"
+brew "fd"
+brew "ripgrep"
+brew "wget"
+brew "zstd"
+brew "pwgen"
+brew "peco"
+brew "ghq"
+brew "tree"
+brew "rsync"
+brew "btop" # htop alternative
+brew "broot" # browser big folders
+brew "ykman"
+brew "vim"
+brew "helix"
+brew "jq"
+brew "yq"
+brew "ytt"
+
+brew "mise"
+brew "shfmt"
+brew "go"
+brew "golangci-lint"
+brew "lua"
+brew "stylua"
+brew "sniffnet"
+brew "deno"
+brew "pipx"
+
+brew "postgresql@15"
+
+brew "terraform"
+brew "buf"
+brew "protobuf"
+brew "aws-sam-cli"
+brew "awscli"
+brew "aws-vault"
+
+brew "colima"
+brew "docker"
+brew "docker-buildx"
+brew "docker-compose"
+brew "docker-completion"
+brew "hadolint"
+
+brew "k6"
+brew "xk6"
+brew "mkcert"
+brew "nss" # mkcert needs to support Firefox
+
+brew "pinact" # pin versions of Actions and Reusable Workflows.
+
+cask "git-credential-manager"
+cask "font-jetbrains-mono"
+cask "1password"
+cask "1password-cli"
+cask "caffeine"
+cask "cmd-eikana"
+cask "figma"
+cask "firefox"
+cask "ghostty"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "hiddenbar"
+cask "jetbrains-toolbox"
+cask "meetingbar"
+cask "orbstack"
+cask "raycast"
+cask "sf-symbols"
+cask "slack"
+cask "visual-studio-code"
+cask "yubico-authenticator"
+cask "zed"
+cask "claude-code"
+mas "Divvy", id: 413857545
+mas "iStat Menus", id: 6499559693
+mas "Xcode", id: 497799835
+mas "Yoink", id: 457622435
+
+go "mvdan.cc/gofumpt"
+go "golang.org/x/tools/cmd/goimports"
+go "golang.org/x/tools/gopls"

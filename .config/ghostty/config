@@ -1,0 +1,13 @@
+theme = Arthur
+font-family = "JetBrains Mono"
+
+window-height = 400
+window-width = 180
+window-padding-x = 10
+window-padding-y = 10
+
+# Quick Terminal
+quick-terminal-position = "right"
+quick-terminal-screen = "mouse"
+quick-terminal-animation-duration = 0.3
+keybind = "global:cmd+shift+t=toggle_quick_terminal"

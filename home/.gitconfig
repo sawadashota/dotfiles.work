@@ -1,0 +1,58 @@
+[core]
+	excludesfile = ~/.gitignore_global
+	pager = delta
+	editor = hx
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true  # use n and N to move between diff sections
+    dark = true      # or light = true, or omit for auto-detection
+[user]
+	name = sawadashota
+	email = shota@sslife.tech
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+	process = git-lfs filter-process
+[commit]
+	template = ~/.gitmessage
+	gpgsign = false
+[push]
+	default = simple
+[alias]
+    ps = push
+    pf = push --force-with-lease
+    pu = pull
+	st = status
+	graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+	cm = commit
+	cmm = commit -m
+	br = branch
+	rmt = remote
+	sw = switch
+	co = "checkout";
+    cp = "cherry-pick";
+	rs = restore
+	st = "status -sb";
+	p = !git push origin `git rev-parse --abbrev-ref HEAD`
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[gpg]
+	program = gpg
+[ghq]
+	root = ~/repo/
+[fetch]
+	prune = true
+[merge]
+	ff = false
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
+[credential]
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
