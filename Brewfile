@@ -61,6 +61,8 @@ brew "nss" # mkcert needs to support Firefox
 
 brew "pinact" # pin versions of Actions and Reusable Workflows.
 
+brew "opencode"
+
 cask "git-credential-manager"
 cask "font-jetbrains-mono"
 cask "1password"
